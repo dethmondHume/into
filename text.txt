@@ -1,4 +1,2 @@
-1 step
-2 step
-3 step
-last step
+my_project
+edit file
