@@ -1,6 +1,2 @@
 # testName
-first test
-
-Hi guys!!!
-
-step 1
+basic programming (Python)
