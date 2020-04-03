@@ -30,7 +30,6 @@ class MazeRunner(object):
             return False
         self.__x = x
         self.__y = y
-        #print_maze(self.__maze, self.__x, self.__y)
         return True
     
     def turn_left(self):
@@ -57,7 +56,6 @@ class MazeRunner(object):
         return self.__x == self.__finish[0] and self.__y == self.__finish[1]
 
 def maze_controller(mr):
-    #found in a CIRCLE
     mr.found()
     if mr.found():
         mr.go()
@@ -77,7 +75,6 @@ def maze_controller(mr):
                 if mr.found():
                     mr.go()
                 mr.turn_left()
-                #go in MAZE left
                 mr.go()
                 if mr.go():
                     return maze_controller(mr)
